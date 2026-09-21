@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flores Amarillas 💛 Para Athzary</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Dvidido aca la bienvenida-->
+
+<div class="screen active" id="screen-welcome">
+
+    <div class="chihiro-moon"></div>
+    <div class="bathhouse">
+        <div class="roof"></div>
+        <div class="body" id="bathhouse-body"></div>
+    </div>
+    <div id="lanterns"></div>
+    <div id="susuwataris"></div>
+
+    <div class="welcome-text">
+        <h1>Bienvenida Athzary</h1>
+        <p>Andre te tiene algo preparado...</p>
+    </div>
+
+    <div class="sunflower-wrap">
+        <div class="sun-stem"></div>
+        <div class="sun-leaf left"></div>
+        <div class="sun-leaf right"></div>
+        <div class="petals" id="petals"></div>
+        <div class="sun-center"></div>
+    </div>
+
+    <button class="btn" onclick="goTo('screen-garden')">Avanzar 🌻</button>
+
+</div>
+
+<!-- jardincito -->
+
+<div class="screen" id="screen-garden">
+
+    <div class="comet-bg"></div>
+    <div class="comet-fade"></div>
+
+    <div class="garden-title">Un jardín de flores amarillas para ti</div>
+
+    <div class="garden" id="garden"></div>
+
+    <button class="btn" id="continue-btn" onclick="goTo('screen-text')">Continuar 💛</button>
+
+</div>
+
+<!-- luciernagash y ashi-->
+
+<div class="screen" id="screen-text">
+
+    <div class="fireflies" id="fireflies3"></div>
+
+    <div class="ghibli-text">Pero aún queda esto...</div>
+
+</div>
+
+<!-- luciernagash x2 JAJAJA-->
+
+<div class="screen" id="screen-image">
+
+    <div class="fireflies" id="fireflies4"></div>
+
+    <div class="final-frame">
+        <img src="images/ghibli.png" alt="La tumba de las luciérnagas">
+        <div class="amo-text" id="amo-text"></div>
+    </div>
+
+</div>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
